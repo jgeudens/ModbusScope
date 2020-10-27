@@ -46,7 +46,7 @@
      <x>0</x>
      <y>0</y>
      <width>839</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -154,7 +154,7 @@
    <property name="minimumSize">
     <size>
      <width>758</width>
-     <height>126</height>
+     <height>161</height>
     </size>
    </property>
    <property name="maximumSize">
@@ -558,9 +558,9 @@
   </action>
   <action name="actionStart">
    <property name="icon">
-    <iconset>
-     <normalon>:/menu_icon/menu_icon/icons/control_play_blue.png</normalon>
-    </iconset>
+    <iconset resource="../../resources/resource.qrc">
+     <normaloff>:/menu_icon/menu_icon/icons/media-playback-start.svg</normaloff>
+     <normalon>:/menu_icon/menu_icon/icons/control_play_blue.png</normalon>:/menu_icon/menu_icon/icons/media-playback-start.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;Start logging</string>
@@ -571,9 +571,9 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normalon>:/menu_icon/menu_icon/icons/control_stop_blue.png</normalon>
-    </iconset>
+    <iconset resource="../../resources/resource.qrc">
+     <normaloff>:/menu_icon/menu_icon/icons/media-playback-stop.svg</normaloff>
+     <normalon>:/menu_icon/menu_icon/icons/control_stop_blue.png</normalon>:/menu_icon/menu_icon/icons/media-playback-stop.svg</iconset>
    </property>
    <property name="text">
     <string>Stop &amp;logging</string>
@@ -617,9 +617,9 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset>
-     <normalon>:/menu_icon/menu_icon/icons/book_open.png</normalon>
-    </iconset>
+    <iconset resource="../../resources/resource.qrc">
+     <normaloff>:/menu_icon/menu_icon/icons/help-about.svg</normaloff>
+     <normalon>:/menu_icon/menu_icon/icons/book_open.png</normalon>:/menu_icon/menu_icon/icons/help-about.svg</iconset>
    </property>
    <property name="text">
     <string>&amp;About...</string>
@@ -736,7 +736,7 @@
    </property>
    <property name="icon">
     <iconset resource="../../resources/resource.qrc">
-     <normaloff>:/menu_icon/menu_icon/icons/magnifier.png</normaloff>:/menu_icon/menu_icon/icons/magnifier.png</iconset>
+     <normaloff>:/menu_icon/menu_icon/icons/zoom-in.svg</normaloff>:/menu_icon/menu_icon/icons/zoom-in.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom</string>
